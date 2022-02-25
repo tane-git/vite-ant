@@ -13,16 +13,19 @@ const { Header, Footer, Sider, Content } = Layout;
 export default function App() {
 
   return (
-    <Layout>
-      <Header>
-        <Nav />
-      </Header>
-      <Content>
-        Content
-      </Content>
-      <Footer>
-        Footer
-      </Footer>
-    </Layout>
+    <>
+      <Nav />
+      <Layout>
+        <Header>
+          <Nav />
+        </Header>
+        <Content>
+          Content
+        </Content>
+        <Footer>
+          Footer
+        </Footer>
+      </Layout>
+    </>
   )
 }

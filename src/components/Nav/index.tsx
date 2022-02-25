@@ -6,6 +6,7 @@ import { Col, Menu, Row } from 'antd';
 // const { SubMenu } = Menu;
 
 // internal
+import styles from './style.module.less';
 import logo from './img/logo.svg';
 import logIn from './img/logIn.svg';
 
@@ -29,7 +30,7 @@ export const Nav: React.FC = () => {
   // Refactor to require links to be passed to component?
 
   return (
-    <div >
+    <div className={styles.test} >
       <Row>
         <Col span={6}>
         {/* <Col span={6} className='bg-red-400 items-end custom'> */}

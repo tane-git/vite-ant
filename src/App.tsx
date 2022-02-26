@@ -16,10 +16,13 @@ export default function App() {
     <>
       <Nav />
       <Layout>
-        <Header>
+        <Header className='bg-green-400'>
           <Nav />
         </Header>
         <Content>
+          <div className='bg-red-500'>
+            <p className='text-purple-500'>test</p>
+          </div>
           Content
         </Content>
         <Footer>
